@@ -1,1 +1,112 @@
+<div class="xenchat_card">
+  <div class="xenchat_card_load">
+    <img class="xenchat_person" src="https://i.imgur.com/PGTrZXF.png" />
+  </div>
+  <div class="xenchat_card_load_extreme_title">
+    <div class="xenchat_text">ZribeDev</div>
+  </div>
+  <div class="xenchat_card_load_extreme_descripion">
+    <div class="xenchat_text_2">
+    ZribeDev is one of our best chat support agents!
+    </div>
+  </div>
+</div>
+
+<style>
+      .xenchat_text {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .xenchat_text_2 {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    width: 95px;
+    max-width: 95px;
+    max-height: 47px;
+  }
+  .xenchat_person {
+    max-width: 70px;
+  }
+  .xenchat_card {
+    width: 190px;
+    height: 75px;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.2);
+    top: 85.5%;
+    left: 86%;
+    padding: 12px 10px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .xenchat_card:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  .xenchat_card_load {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    float: left;
+    background: linear-gradient(
+      120deg,
+      #e5e5e5 30%,
+      #f0f0f0 38%,
+      #f0f0f0 40%,
+      #e5e5e5 48%
+    );
+    border-radius: 50%;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    /* animation: load89234 2s infinite; */
+  }
+
+  .xenchat_card_load_extreme_title {
+    width: 90px;
+    height: 20px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(
+      120deg,
+      #e5e5e5 30%,
+      #f0f0f0 38%,
+      #f0f0f0 40%,
+      #e5e5e5 48%
+    );
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    /* animation: load89234 2s infinite; */
+  }
+
+  .xenchat_card_load_extreme_descripion {
+    width: 90px;
+    height: 47px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(
+      120deg,
+      #e5e5e5 30%,
+      #f0f0f0 38%,
+      #f0f0f0 40%,
+      #e5e5e5 48%
+    );
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    /* animation: load89234 2s infinite; */
+  }
+
+  @keyframes load89234 {
+    100% {
+      background-position: -100% 0;
+    }
+  }
+</style>
+
 
